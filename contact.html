@@ -15,8 +15,8 @@
     <meta name="author" content="">
 
     <!-- Site Icons -->
-    <link rel="shortcut icon" href="images/Favicon.ico" type="image/x-icon" />
-    <link rel="apple-touch-icon" href="images/satya agencies logo.png">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -61,14 +61,14 @@
 				<div class="logo-sidebar">
 					<a href="index.html"><img src="images/logos/logo.png" style="width:150px ;" alt="image"></a>
 				</div>
-				<ul class="sidebar-nav" >
 				<ul class="sidebar-nav" style="margin-top: 70px;">
-					<li><a href="index.html">Home</a></li> <!--class="active"-->
+					<li><a href="index.html">Home</a></li>
 					<li><a href="about.html">About Us</a></li>
-					<li><a href="products.html">Products</a></li>
-					<li><a href="contact.html">Contact</a></li>
+					<li><a href="products.html">Products</a></li><!--class="active" -->
+					<!--<li><a href="barbers.html">Our Barbers</a></li>-->
 					<!--<li><a href="appointment.html">Appointment</a></li>-->
-					<li><a href="http://dvo.artlife.ru/Account/Login/en">Login</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="http://dvo.artlife.ru/Account/Login/en">Login</a></li> 
                 </ul>
                 <div class="Satya-logo-sidebar">
 					<a href="index.html"><img src="images/logos/satya agencies logo.png" style="width:150px ;" alt="image" ></a>
@@ -80,74 +80,82 @@
         <!-- Page Content -->
         <div id="page-content-wrapper">
             <a href="#menu-toggle" class="menuopener" id="menu-toggle"><i class="fa fa-bars"></i></a>
-            <div id="home" class="parallax  first-section" data-stellar-background-ratio="0.3" style="background-image:url('uploads/homepage bg.jpg'); "> 
-                <div class="container-fluid">
-                    <div class="row">
-						<!--<div id="full-width" class="owl-carousel owl-theme">-->
-							<div class="text-center item">
-								<div class="col-md-8 col-md-offset-2 col-sm-10">
-									<div class="big-tagline text-right">
-                                        <p class="index">
-                                        Health begins <br>
-                                        from a little step
-                                        </p><br>
-                                        <l>
-                                        Artlife Products will help you to set<br>
-                                        right the immune system, normalize<br>
-                                        acid-base balance, to clena up the body <br>
-                                        and to prevent parasitic disease.
-                                        </l>
-									</div>
+			
+            <div class="all-page-bar">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-12 col-sm-12 col-md-12">
+							<div class="title title-1 text-center">
+								<div class="title--heading">
+									<h1>Contact</h1>
 								</div>
-                            </div>
-                            
-                            <!--
-							<div class="text-center item">
-								<div class="col-md-8 col-md-offset-2 col-sm-12">
-									<div class="big-tagline text-center">
-										<h2><strong>Satya Artlife</strong></h2>
-										<p class="lead">We are Satya Artlife</p>
-									</div>
-								</div>
-                            </div>
-                            
-							<div class="text-center item">
-								<div class="col-md-8 col-md-offset-2 col-sm-12">
-									<div class="big-tagline text-center">
-										<h2><strong>Satya Artlife</strong></h2>
-										<p class="lead">We are Satya Artlife</p>
-                                    </div>
-								</div>
+								<!--<div class="clearfix"></div>
+								<ol class="breadcrumb">
+									<li><a href="index-3.html">Home</a></li>
+									<li class="active">Contact</li>
+								</ol>
+								<div class="much">
+									<img src="uploads/mustache.png" alt=""/>
+								</div>-->
 							</div>
-						</div>-->
-                    </div><!-- end row -->
-                </div><!-- end container -->
-            </div><!-- end section -->
+							<!-- .title end -->
+						</div>
+					</div>
+				</div>
+			</div><!-- end all-page-bar -->
 
-            <!--<section class="section nopad cac text-center">
+            <!--section class="section nopad cac text-center">
                 <a href="#"><h3>Interesting our awesome barber services? Just drop an appointment form below!</h3></a>
             </section>-->
 
-            <div class="section wb">
+            <div id="contact" class="section wb">
                 <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-md-8 col-md-offset-2 text-center">
-                            <div class="message-box">
-                                <h3>About</h3>
-                                <h2>Satya Artlife</h2>
-                                <p class="lead"> Artlife Wellness Products Pvt. Ltd. is one of the fastest and most confidently developing Company in field of Nutracutical , Dietary Supplements and Natural Cosmetics ! We are associated with A Russian Company “Artlife” in terms of Import from past 8 years company is rightfully considered the founder of the wellness industry in Russia. For more than 20 years of history, Artlife has earned a reliable reputation as a manufacturer of high-quality products for beauty and health with a number of competitive advantages. </p>
+                    <div class="section-title row text-center">
+                        <div class="col-md-8 col-md-offset-2">
+                        <h3>Contact</h3>
+                        <hr class="grd1">
+                        <p class="lead">LET'S MAKE AN CONTACT FOR YOUR LIFE</p>
+                        </div>
+                    </div><!-- end title -->
 
-                                <!--<a href="#services" data-scroll class="btn btn-light btn-radius btn-brd grd1 effect-1">Learn More</a>-->
-                            </div><!-- end messagebox -->
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-2">
+                            <div class="contact_form">
+                                <div id="message"></div>
+                                <form id="contactform" class="row" action="contact.php" name="contactform" method="post">
+                                    <fieldset class="row-fluid">
+                                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                            <input type="text" name="first_name" id="first_name" class="form-control" placeholder="First Name" required>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                            <input type="text" name="last_name" id="last_name" class="form-control" placeholder="Last Name">
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                            <input type="email" name="email" id="email" class="form-control" placeholder="Your Email" required>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                            <input type="text" name="phone" id="phone" class="form-control" minlength="10"    placeholder="Your Phone" required>
+                                        </div>
+                                        
+                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                            <textarea class="form-control" name="comments" id="comments" rows="6" placeholder="Your Message.."></textarea>
+                                        </div>
+                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+                                            <button type="submit" value="SEND" id="submit" class="btn btn-light btn-radius btn-brd grd1 btn-block subt">Submit</button>
+                                        </div>
+                                    </fieldset>
+                                </form>
+                            </div>
                         </div><!-- end col -->
                     </div><!-- end row -->
-					
-					<!--<hr class="hr1"> -->
                 </div><!-- end container -->
             </div><!-- end section -->
 
-
-
+            <!--<div id="map" class="map-box">
+                <div class="container-fluid">
+                    
+                </div><!-- end container -->
+            <!--</div><!-- end section -->
 
             <div class="copyrights">
                 <div class="container-fluid">
@@ -165,9 +173,9 @@
                         <div class="footer-right">
                             <l>
                                 <strong><font color=#E51111 size=4>Contact</font></strong> <br>
-                                Phone No : 9425519966, 7587108866 <br>
-                                Telephone : 0771 - 4916522<br>
-                                Email : satyaagency109@gmail.com
+                                Phone No  &nbsp&nbsp: 9425519966, 7587108866 <br>
+                                Telephone &nbsp: 0771 - 4916522<br>
+                                Email &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp : satyaagency109@gmail.com
                             </l>
                         </div>
 

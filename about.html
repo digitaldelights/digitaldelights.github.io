@@ -1,117 +1,333 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+    <!-- Basic -->
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
+   
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+ 
+     <!-- Site Metas -->
+    <title>Satya Artlife</title>  
+    <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="shortcut icon" href="assets/ico/favicon.ico">
 
-    <title>Digital Delights</title>
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="images/Favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="images/satya agencies logo.png">
 
-    <!-- Bootstrap core CSS -->
-    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Colors CSS -->
+    <link rel="stylesheet" href="css/colors.css">
+    <!-- ALL VERSION CSS -->
+    <link rel="stylesheet" href="css/versions.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
 
-    <!-- Custom styles for this template -->
-    <link href="assets/css/style.css" rel="stylesheet">
-    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
-
-    <!-- Just for debugging purposes. Don't actually copy this line! -->
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-  </head>
 
-  <body>
+</head>
+<body class="barber_version">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap" rel="stylesheet">
 
-    <!-- Static navbar -->
-    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="index.html">Digital Delighs</a>
-        </div>
-        <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="index.html">Home</a></li>
-            <li class="active"><a href="about.html">About</a></li>
-            <li><a href="index.html#works">Works</a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div>
-    </div>
-
-
-	<div id="aboutwrap">
-	    <div class="container">
-			<div class="row">
-				<div class="col-lg-6 col-lg-offset-3">
-				</div>
-			</div><!--/row -->
-	    </div> <!-- /container -->
-	</div><!--/aboutwrap -->
-	
-	<div class="container">
-		<div class="row centered mt mb">
-			<div class="col-lg-8 col-lg-offset-2">
-				<h2>OMKAR PATEL</h2>
-				
-			</div>
-
-		</div><!--/row -->
-	</div><!--/container -->
-	
-	<div id="social">
-		<div class="container">
-			<div class="row centered">
-				<div class="col-lg-4">
-					<a href="https://www.facebook.com/omkarpatel109"><i class="fa fa-facebook"></i></a>
-				</div>
-				<div class="col-lg-4">
-					<a href="https://www.twitter.com/v_omkar06"><i class="fa fa-twitter"></i></a>
-				</div>
-				<div class="col-lg-4">
-					<a href="https://www.instagram.com/0mkar_patel"><i class="fa fa-instagram"></i></a>
-				</div>
-			
-			</div><!--/row -->
-		</div><!--/container -->
-	</div><!--/social -->
-
-	<div id="footerwrap">
-		<div class="container">
-			<div class="row centered">
-				<div class="col-lg-4">
-					<p><b>DVELOPER & MARKETER</b></p>
-				</div>
-				<div class="col-lg-4">
-					<p>Living in the amazing Raipur.</p>
-				</div>
-				<div class="col-lg-4">
-					<p>omkapatel109@gmail.com</p>
-				</div>
-			
-			</div>
-		
+    <!-- LOADER -->
+    <div id="preloader">
+        <div class="cube-wrapper">
+		  <div class="cube-folding">
+			<span class="leaf1"></span>
+			<span class="leaf2"></span>
+			<span class="leaf3"></span>
+			<span class="leaf4"></span>
+		  </div>
+		  <span class="loading" data-name="Loading">Satya Artlife Loading</span>
 		</div>
-	</div><! --/footerwrap -->
-	
+    </div><!-- end loader -->
+    <!-- END LOADER -->
+
+    <div id="wrapper">
+
+        <!-- Sidebar-wrapper -->
+        <div id="sidebar-wrapper">
+			<div class="side-top">
+				<div class="logo-sidebar">
+					<a href="index.html"><img src="images/logos/logo.png" style="width:150px ;" alt="image"></a>
+				</div>
+				<ul class="sidebar-nav" style="margin-top: 70px;">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About Us</a></li> <!-- class="active" -->
+					<li><a href="products.html">Products</a></li>
+					<!--<li><a href="barbers.html">Kissel</a></li>-->
+					<!--<li><a href="appointment.html">Biological Complexes</a></li>-->
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="http://dvo.artlife.ru/Account/Login/en">Login</a></li>
+                </ul>
+                <div class="Satya-logo-sidebar">
+					<a href="index.html"><img src="images/logos/satya agencies logo.png" style="width:150px ;" alt="image" ></a>
+				</div>
+			</div>
+        </div>
+        <!-- End Sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <a href="#menu-toggle" class="menuopener" id="menu-toggle"><i class="fa fa-bars"></i></a>
+			
+            <div class="all-page-bar">
+				<div class="container">
+					<div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12">
+                            
+                        <video class="about-video"
+                                src="videos/promo.mp4" style="width:1030px;height:600px;"
+                                controls>
+                         </video>
+						<!--
+							<div class="title title-1 text-center">
+                                
+								<!--<div class="title--heading">
+									<h1>About Us</h1>
+								</div>-->
+								<!--<div class="clearfix"></div>
+								<ol class="breadcrumb">
+									<li><a href="index-3.html">Home</a></li>
+									<li class="active">About Us</li>
+								</ol>-->
+								<!--<div class="much">
+									<img src="uploads/mustache.png" alt=""/>
+								</div>-->
+							<!--</div>
+							 .title end -->
+                            </div>
+					</div>
+				</div>
+			</div><!-- end all-page-bar -->
+
+            <!--<section class="section nopad cac text-center">
+                <a href="#"><h3>Interesting our awesome barber services? Just drop an appointment form below!</h3></a>
+            </section>-->
+
+            <div class="section wb">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-2 text-center">
+                            <div class="message-box">
+                                
+                               
+
+                                
+                                <h2>Our Values</h2>
+                                <div class="about-values-card">
+                                    <div class="about-value">Free Entripise and open Business</div>
+                                    <div class="about-value">Responsiblity for quality work and result</div>
+                                    <div class="about-value">Bright, Healthy and Active Life</div>
+                                </div>
+                   
+                            </div><!-- end messagebox -->
+                        </div><!-- end col -->
+                    </div><!-- end row -->
+					
+					
+					
+					<div class="row">
+						<div class="col-md-12">
+							<div class="about-tab">
+								<ul class="nav nav-tabs">
+									<li class="active"><a href="#tab_a" data-toggle="tab">About Us</a></li>
+									<li><a href="#tab_b" data-toggle="tab">Founder Artlife</a></li>
+									<li><a href="#tab_c" data-toggle="tab">M.D. Artlife India</a></li>								
+								</ul>
+								<div class="tab-content">
 
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-  </body>
+									<div class="tab-pane fade in active" style="text-align: justify;" id="tab_a">
+                                        
+                                            Artlife Wellness Products Pvt. Ltd. is one of the fastest and most confidently developing Company in field of Nutracutical , Dietary Supplements and Natural Cosmetics ! We are associated with A Russian Company “Artlife” in terms of Import from past 8 years company is rightfully considered the founder of the wellness industry in Russia.
+                                            For more than 20 years of history, Artlife has earned a reliable reputation as a manufacturer of high-quality products for beauty and health with a number of competitive advantages.
+                                           <br><br><strong><font size="5">ARTLIFE IS A BRAND OF UNCONDITIONAL TRUST</font></strong><br><br>
+                                            Development and production of quality products,<br>
+                                            Contribution to the development of Russia's research potential,<br>
+                                            Annual investments in scientific activities,<br>
+                                            Creation of new innovative technologies.<br>
+                                            At Initial level Artlife Wellness products pvt. Ltd started with a small office in Delhi city which was serving only countable distributors but quality goods and higher services helped us to grow faster not only in Delhi but other states of India today Artlife wellness Products private limited company operated offices covers major states of India with several branches, in present time numerous distributors working for our company in states like Maharashtra,Gujarat,Assam,WestBengal,Tamilnadu,Haryana,Punjab,Uttarakhand,U.P.,M.P.,A.P., Rajasthan,Kerala,Orissa,Goa,Meghalaya,Mizoram,Manipur,Nagaland,Tripura etc.<br>
+                                            <br><strong><font size="5"> A NEW STAGE OF DEVELOPMENT</font></strong><br><br>
+                                            Year 2017 brings Turning point in Development of company on 18th January 2017 we inaugurated our Self owned Manufacturing plant in Noida to manufacture products with high quality standard and started to Manufacture exclusive products including 6 types Functional food “Kissels” Production of Artlife in India is gaining momentum.with in just 7 months company announced launch of eight new products, including a series of Healthy Shakes Provitel, Neocollagen and two types of coffee. contract production of biologically active complex was launched with full control at all stages of production and quality of the product. Until the end of August, start-up and commissioning work on the launch of capsule production will be continued.<br>
+                                            company imports ready-mixes from Russia, then the products are encapsulated and packed, Arlife specialists debug each stage of production and control the quality of the finished product. Experts from Russia are frequent visitors to the production, they come every month with a supervisory audit. The assortment of product lines and composition of Artlife products for Indian market differ from Russian ones, since a number of local factors needed to be taken into account in the development. Among them - geography, climate, social conditions, cultural and religious traditions, features of the diet, the prevalence of nutritional deficiencies, structure of the incidence of population. All recipes of products for production in India are made taking into account all these factors, as well as legislation of country.<br>
+                                            Today Artlife Company is represented in 400 cities of Russia, Germany, India, Bulgaria, Serbia, Ukraine and even more than in 20 countries of the world. The geography of business is constantly growing, which means that more and more people will have the opportunity to prolong active longevity and improve the quality of life with the help of Artlife products.<br>
+                                            Developing ourselves and helping others - we make the world better!<br>
+                                       
+                                        </div>
+                                    
+
+
+									<div class="tab-pane fade" id="tab_b">
+                                        <div class="row" >
+                                            <div class="col-md-4">
+                                                <img src="uploads/president.png" alt="" class="img-responsive img-rounded alignleft president">
+                                                
+                                                A.N. Avstrievskikh<br>
+                                                Artlife LLC Founder-President
+                                            </div>
+
+                                            <div class="col-md-8" style="text-align: justify;">
+                                                Nowadays, Artlife has become a standard of products of high quality, well-known brand and absolute confidence, obvious leader and innovator in production of phyto products for health and long life. The history of the Company is the success and great achievements inspiring us to take the challenges. We keep growing and developing, opening new markets and manufacturing new products.<br>
+                                                This year Artlife India celebrates its 6th Anniversary, while the Head office is celebrating its 18th Anniversary. With all respect we reckon that India is a multinational and multicultural country, a billion of people with a global potential. For a long time India and Russia have been involved into strategic relationship.During the recent years we made steps forward to a better and healthier life together with the best Indian distributors. And behind the steps,no matter how hard they were, stand real Indian leaders that became or will become powerful and reach leaders not only in Russia and India,but all over the world.<br>
+                                                
+                                            </div>
+                                        </div>    
+                                    </div>
+
+                                    <div class="tab-pane fade" id="tab_c">
+                                        <div class="row">
+                                            <div class="col-md-4">
+                                                <img src="uploads/raj-kamal.jpg" alt="" class="img-responsive img-rounded alignleft president"><br>
+                                                Mr. Raj Kamal<br>
+                                                Art Life India Managing Director
+                                            </div>
+
+                                            <div class="col-md-8" style="text-align: justify;">
+                                            The Winner Always Has A Plan!<br>
+                                            The Loser Always Has An Excuse!<br>
+                                            My ambition is to take Art life company to the top in Indian Market because this belief has been made 
+                                            strong by the feedback given by our users and distributors about the positive influence of Art life
+                                            products on general health . When we started our business in India then we were working only with 
+                                            6 products and today we have more than 40 products and all the products are excellent. Our Head
+                                            office in Russia has been working with so many new concepts, new products, new internet system
+                                            and in near future we will be providing so many facilities for our Indian distributors that
+                                            they will have an easy access to all the information. Today we are working in Assam , Chattisgarh,
+                                            Nagaland , U.P, Punjab ,Delhi , Rajasthan ,Gujarat ,Goa ,Mumbai, M .P , Kerala, Hyderabad
+                                            and many other places as well. My 1st priority is to build a strong base of education 
+                                            system so that people get good knowledge about our products, marketing plan & system 
+                                            of our Company. My 2nd priority is to provide easy delivery of products to all our 
+                                            distributors, for which I am developing new Service centers and also trying to open up new 
+                                            offices in India. Just a few months back, Art life Company has opened a new office in Mumbai 
+                                            as well. We are also developing informative materials, product catalogues, CDs and soon we 
+                                            will launch our new website in India, where people will get a lot of information.<br>
+
+                                            Dreams won't come looking for you, that's why you have to chase them, pursue them until they become reality and then hold on tightly.
+                                                <!--As a Director it is my responsibility to build an environment where employees can flourish by enabling involvement at every level. I conduct a lot of open house sessions to talk to my Distributors directly. This also gives me an opportunity to understand their needs and concerns better. I love to work with our Distributors as I am always planning new promotions for them and developing new promotional materials using innovative ideas. I always talk to them and try to understand their problems and welcome their new ideas/suggestions for improving the Business.
+                                                -->
+                                                </div>
+                                        </div>    
+                                    </div>                                 
+
+									
+								</div><!-- tab content -->
+							</div>
+						</div><!-- end col -->
+					</div><!-- end row -->
+					
+                    <hr class="hr1"> 
+
+
+
+                    <!--<div class="row text-center">
+                        <div class="col-md-4 col-sm-6 col-xs-12">
+                           <div class="service-widget">
+                                <div class="post-media wow fadeIn">
+                                    <a href="uploads/barber_01.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
+                                    <img src="uploads/barber_01.jpg" alt="" class="img-responsive img-rounded">
+                                </div>
+                                <h3>Show us Your Graft Style</h3>
+                                <p>Aliquam sagittis ligula et sem lacinia, ut facilisis enim sollicitudin. Proin nisi est, convallis nec purus vitae, iaculis posuere sapien. Cum sociis natoque.</p>
+                            </div> -->
+                                    <!-- end service -->
+                       <!-- </div>
+
+                        <div class="col-md-4 col-sm-6 col-xs-12">
+                            <div class="service-widget">
+                                <div class="post-media wow fadeIn">
+                                    <a href="uploads/barber_02.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
+                                    <img src="uploads/barber_02.jpg" alt="" class="img-responsive img-rounded">
+                                </div>
+                                <h3>Outstanding Barber Shop</h3>
+                                <p>Duis at tellus at dui tincidunt scelerisque nec sed felis. Suspendisse id dolor sed leo rutrum euismod. Nullam vestibulum fermentum erat. It nam auctor. </p>
+                            </div>-->  <!-- end service -->
+                       <!-- </div>
+
+                        <div class="col-md-4 col-sm-6 col-xs-12">
+                            <div class="service-widget">
+                                <div class="post-media wow fadeIn">
+                                    <a href="uploads/barber_03.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
+                                    <img src="uploads/barber_03.jpg" alt="" class="img-responsive img-rounded">
+                                </div>
+                                <h3>The Barber Materials</h3>
+                                <p>Etiam materials ut mollis tellus, vel posuere nulla. Etiam sit amet lacus vitae massa sodales aliquam at eget quam. Integer ultricies et magna quis posuere.</p>
+                            </div>--><!-- end service -->
+                        <!--</div>
+                    </div>-->
+                        <!-- end row -->
+                        
+                </div><!-- end container -->
+            </div><!-- end section -->
+
+           
+
+            <div class="copyrights">
+                <div class="container-fluid">
+                    <div class="footer-distributed">
+                        <div class="footer-left">
+                            <l>
+                                <strong><font color=#E51111 size=4>Office</font></strong> <br>
+                                Shop No 104 <br>
+                                Ayushadhi Vatika <br>
+                                Dumartari Medical Complex <br> 
+                                Dhamtari Road Raipur (C.G.)
+                            </l>
+                        </div>
+
+                        <div class="footer-right">
+                            <l>
+                                <strong><font color=#E51111 size=4>Contact</font></strong> <br>
+                                Phone No  : 9425519966, 7587108866 <br>
+                                Telephone : 0771 - 4916522<br>
+                                Email  : satyaagency109@gmail.com
+                                </l>
+
+                        </div>
+
+                        
+                    </div>
+                </div><!-- end container -->
+            </div><!-- end copyrights -->
+        </div>
+    </div><!-- end wrapper -->
+
+    <a href="#" id="scroll-to-top" class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
+
+    <!-- ALL JS FILES -->
+    <script src="js/all.js"></script>
+	<script src="js/responsive-tabs.js"></script>
+    <!-- ALL PLUGINS -->
+    <script src="js/custom.js"></script>
+
+    <!-- Menu Toggle Script -->
+    <script>
+    (function($) {
+        "use strict";
+        $("#menu-toggle").click(function(e) {
+            e.preventDefault();
+            $("#wrapper").toggleClass("toggled");
+        });
+        smoothScroll.init({
+            selector: '[data-scroll]', // Selector for links (must be a class, ID, data attribute, or element tag)
+            selectorHeader: null, // Selector for fixed headers (must be a valid CSS selector) [optional]
+            speed: 500, // Integer. How fast to complete the scroll in milliseconds
+            easing: 'easeInOutCubic', // Easing pattern to use
+            offset: 0, // Integer. How far to offset the scrolling anchor location in pixels
+            callback: function ( anchor, toggle ) {} // Function to run after scrolling
+        });
+    })(jQuery);
+    </script>
+
+</body>
 </html>
